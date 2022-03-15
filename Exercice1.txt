@@ -1,1 +1,26 @@
-bonjour
+Q1 : Qu'est ce qu'un service web?
+
+Un service web est une plateforme commune qui permet à plusieurs applications développées dans des
+langages différents de programmation de communiquer entre elles. Cela permet aussi la communication
+entre les applications clients et un serveur internet.
+En terme de fonctionnement le client envoie une requête qui est traité par un processus d'appel à distance
+
+Q2 : Une API REST, qu'est-ce que c'est ?
+
+Une API REST est une interface de programmation d'application qui respecte les contraintes du style 
+d'architecture REST et permet d'avec les services web RESTful. L'architecture REST a été créée
+par l'informaticien Roy Fielding.
+
+Q3 : Qu'est ce qu'une FastAPI?
+
+C'est un framework moderne qui permet de créer des API de manière transparente sans trop d'efforts.
+ Il a la capacité de séparer le code du serveur de la logique-métier, ce qui augmente la maintenabilité
+du code.
+Il dispose d'un système de validation des données qui peut détecter tout type de données invalides 
+au moment de l'exécution et renvoie la raison des mauvaises entrées à l'utilisateur au seul format JSON.
+
+Cela libère les développeurs de la gestion explicite de cette exception. En outre, il génère 
+la documentation en cours d'exécution lors du développement de l'API. La documentation est un excellent
+moyen pour les autres développeurs de collaborer sur un projet, car elle leur présente tout ce qui
+peut être fait avec les instructions nécessaires. FastAPI génère également une interface graphique,
+ce qui constitue un aide pour les développeurs.
